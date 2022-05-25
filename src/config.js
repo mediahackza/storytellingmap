@@ -1,32 +1,65 @@
 var config = {
-  style: 'mapbox://styles/mapbox/streets-v11',
+  style: 'mapbox://styles/alastairotter/cl3lqp5at006o16mr2eb0j6b3',
   accessToken:
-    'pk.eyJ1IjoiYWxhc3RhaXJvdHRlciIsImEiOiJjbDJrb25yMG8wZjIzM2RvOGJ2cTcxb3dhIn0.SUOloofX9FcQRU8AGpoeOw',
-  showMarkers: true,
-  markerColor: '#3FB1CE',
+    'pk.eyJ1IjoiYWxhc3RhaXJvdHRlciIsImEiOiJjaWc1NjM1dGYwYXV6djJtNjc5dGNqZThrIn0.SWLrLlYJWBdLvyIURec3FA',
+  showMarkers: false,
+  markerColor: 'red',
+
   //projection: 'equirectangular',
   //Read more about available projections here
   //https://docs.mapbox.com/mapbox-gl-js/example/projections/
-  inset: true,
+  inset: false,
   theme: 'dark',
   use3dTerrain: false, //set true for enabling 3D maps.
-  title: "China's investment in Africa",
-  subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-  byline: 'By a Digital Storyteller',
+  // title: "China's investment in Africa",
+  // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+  // byline: 'By a Digital Storyteller',
   footer:
     'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
   chapters: [
     {
-      id: 'slug-style-id',
+      id: 'start',
+      alignment: 'center',
+      hidden: true,
+      title: 'Home',
+      // image: 'https://hosted.mediahack.co.za/flags/ng.svg',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      location: {
+        center: [0, 0],
+        zoom: 3,
+        pitch: 20,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'energyprojects',
+          opacity: 1,
+          duration: 5000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'energyprojects',
+          opacity: 0,
+          duration: 5000,
+        },
+      ],
+    },
+    {
+      id: 'angola',
       alignment: 'left',
       hidden: false,
-      title: 'Nigeria',
+      title: 'Angola',
       image: 'https://hosted.mediahack.co.za/flags/ng.svg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       location: {
-        center: [6.1210052, 9.3498332],
-        zoom: 4.5,
+        center: [13.2833199, -11.1799557],
+        zoom: 5.5,
         pitch: 20,
         bearing: 0,
       },
@@ -39,6 +72,11 @@ var config = {
         //     opacity: 1,
         //     duration: 5000
         // }
+        // {
+        //   layer: 'energyprojects',
+        //   opacity: 1,
+        //   duration: 5000,
+        // },
       ],
       onChapterExit: [
         // {
@@ -101,12 +139,12 @@ var config = {
       description: 'Copy these sections to add to your story.',
       location: {
         center: [28.0697402, -26.0323924],
-        zoom: 10,
-        pitch: 0,
+        zoom: 16,
+        pitch: 60,
         bearing: 0,
       },
       mapAnimation: 'flyTo',
-      rotateAnimation: true,
+      rotateAnimation: false,
       callback: '',
       onChapterEnter: [],
       onChapterExit: [],
