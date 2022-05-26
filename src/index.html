@@ -32,6 +32,11 @@
             width: 100%;
             max-width: 100%; 
         }
+        .cards { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
         
         .intro { 
             position: relative;
@@ -254,7 +259,13 @@ margin-top: 100px;
     <img src="./images/chart3.png">
 </p>
 
+<div class="cross-head"><h1>What are the main areas of investment?</h1></div>
+
 <p>The four main areas of investment in Africa are: energy: transport and storage, industry, mining and construction; and communications</p>
+
+<p>
+    <div class="flourish-embed flourish-map" data-src="visualisation/10122164"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+</p>
 
 <p>
     <img src="./images/chart4.png">
@@ -273,6 +284,21 @@ margin-top: 100px;
 <div id="map"></div>
 <div id="mapInset"></div>
 <div id="story"></div>
+
+<div class="panel panel-dark">
+    <div class="panel-wrap">
+       <div class="cards">
+           <div class="card"><img src="./images/Angola.png"></div>
+           <div class="card"><img src="./images/Equatorialguinea.png"></div>
+           <div class="card"><img src="./images/Nigeria.png"></div>
+           <div class="card"><img src="./images/Angola.png"></div>
+           <div class="card"><img src="./images/Equatorialguinea.png"></div>
+           <div class="card"><img src="./images/Nigeria.png"></div><div class="card"><img src="./images/Angola.png"></div>
+           <div class="card"><img src="./images/Equatorialguinea.png"></div>
+           <div class="card"><img src="./images/Nigeria.png"></div>
+       </div>
+        </div>
+        </div>
 
 <script src="./config.js"></script>
 <script>
