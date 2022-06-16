@@ -90,7 +90,7 @@ var config = {
 
       location: {
         center: [3.1438749, 6.5480357],
-        zoom: 5,
+        zoom: 10,
         pitch: 0,
         bearing: 0,
         // flyTo additional controls-
@@ -116,7 +116,7 @@ var config = {
         'This project is scheduled to be completed this year (2022). Unit one was commissioned on 28 March 2022, first part of the project in operation according to Facebook announcement by Buhari’s spokesperson, Wakil Jiddo Muhammad. (See pic below of Zungeru dam wall from this FB account.      ',
       location: {
         center: [6.2932451, 9.9005702],
-        zoom: 16,
+        zoom: 12,
         pitch: 60,
         bearing: 0,
         // flyTo additional controls-
@@ -170,7 +170,7 @@ var config = {
 
       location: {
         center: [9.7368403, 1.8236817],
-        zoom: 16,
+        zoom: 12,
         pitch: 60,
         bearing: 0,
         // flyTo additional controls-
@@ -198,7 +198,7 @@ var config = {
 
       location: {
         center: [2.9303258, 36.7368171],
-        zoom: 20,
+        zoom: 14,
         pitch: 60,
         bearing: 0,
         // flyTo additional controls-
@@ -226,7 +226,7 @@ var config = {
 
       location: {
         center: [39.66008611, -4.05769119],
-        zoom: 15,
+        zoom: 10,
         pitch: 60,
         bearing: 0,
         // flyTo additional controls-
@@ -237,6 +237,7 @@ var config = {
         //curve: 1, // change the speed at which it zooms out
       },
       mapAnimation: 'flyTo',
+
       rotateAnimation: false,
       callback: '',
       onChapterEnter: [],
@@ -253,7 +254,7 @@ var config = {
 
       location: {
         center: [27.5610361, -23.7049107],
-        zoom: 15,
+        zoom: 10,
         pitch: 60,
         bearing: 0,
         // flyTo additional controls-
