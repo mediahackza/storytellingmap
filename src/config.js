@@ -111,6 +111,84 @@ var config = {
       ],
     },
     {
+      id: 'equitorialguinea1',
+      alignment: 'right',
+      hidden: false,
+      title: 'Equatorial Guinea',
+      image: './images/Equatorial_Guinea.png',
+      description: '<p>Ports are a major part of the Belt and Road initiative, harkening back to the maritime silk road trade route that connected China with Southeast Asia, the Arabian peninsula, Europe and East Africa.</p><p>Ports are a gateway to trade and China has financed the construction or revamping of 21 ports in Africa in the past two decades. China’s imports of resources such as oil, iron ore and copper from Africa are growing.</p><p>Tiny Equatorial Guinea has  oil and thanks to that it has one of the highest GPDs per capita on the continent.</p>',
+
+      location: {
+        center: [9.9484786, 1.4504894],
+        zoom: 5,
+        pitch: 0,
+        bearing: 0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+
+    {
+      id: 'equitorialguinea2',
+      alignment: 'right',
+      hidden: false,
+      title: 'Bata Port',
+      image: './images/Highest_GDP_african_Countries.png',
+      description:
+        '<p>An oil-backed loan agreement between China’s Eximbank and the government of Equatorial Guinea helped to finance the rehabilitation and modernisation of the port of Bata into a large, deep-water port. It was officially inaugurated in 2019.</p><p>At the end of 2021 the Wall Street Journal reported that China was negotiating with authorities in Equatorial Guinea to build a <a href="https://www.wsj.com/articles/china-seeks-first-military-base-on-africas-atlantic-coast-u-s-intelligence-finds-11638726327" target="_blank">naval base near Bata</a>, which the United States government is not pleased about given Equatorial Guinea’s position on the Atlantic Ocean.</p><p>If the plan were to go ahead, it would be China’s second military base in Africa.</p><p>China also has a naval base in tiny Djibouti, on the East African coast, next to the <a href="https://china.aiddata.org/projects/59375/" target="_blank">Port of Doraleh</a>. Work was also completed at that port in 2017 by Chinese companies with Chinese financing.</p>',
+      location: {
+        center: [9.7368403, 1.8236817],
+        zoom: 12,
+        pitch: 60,
+        bearing: 0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+    {
+      id: 'equitorialguinea3',
+      alignment: 'right',
+      hidden: false,
+      image: './images/Port_of_Doraleh.png',
+      description:
+        '',
+      location: {
+        center: [9.7368403, 1.8236817],
+        zoom: 12,
+        pitch: 60,
+        bearing: 0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+    {
       id: 'nigeria1',
       alignment: 'right',
       hidden: false,
@@ -146,60 +224,6 @@ var config = {
         'This project is scheduled to be completed this year (2022). Unit one was commissioned on 28 March 2022, first part of the project in operation according to Facebook announcement by Buhari’s spokesperson, Wakil Jiddo Muhammad. (See pic below of Zungeru dam wall from this FB account.      ',
       location: {
         center: [6.2932451, 9.9005702],
-        zoom: 12,
-        pitch: 60,
-        bearing: 0,
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: [],
-    },
-    {
-      id: 'equitorialguinea1',
-      alignment: 'right',
-      hidden: false,
-      title: 'Equatorial Guinea',
-      image: './images/Equatorialguinea.png',
-      description: 'General description',
-
-      location: {
-        center: [9.9484786, 1.4504894],
-        zoom: 5,
-        pitch: 0,
-        bearing: 0,
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: [],
-    },
-
-    {
-      id: 'equitorialguinea2',
-      alignment: 'right',
-      hidden: false,
-      title: 'Bata Port',
-      // image: './images/Equatorialguinea.png',
-      description:
-        '<p>In 2007, China Eximbank and the Government of Equatorial Guinea signed a subsidiary buyer’s credit loan agreement for the Bata Port Rehabilitation and Expansion Project. The proceeds of the loan were used by the borrower to finance an EUR 315 million commercial (EPC) contract with CCCC First Harbor Engineering Co. Ltd. This project involved the restoration of an existing wharf, the construction of a new wharf and breakwater, and the acquisition and installation of machinery at the Port of Bata, according to AidData.</p><p>China is reportedly negotiating with local authorities to build a naval base in Bata, which is upsetting the US. This is similar to what happened in Djibouti with Doraleh port. https://china.aiddata.org/projects/59375/, says Ammar Malik or AidData. In December 2021, WSJ published a story “China seeks first Military Base on Africa’s Atlantic Coast, US Intelligence Finds.”</p> ',
-
-      location: {
-        center: [9.7368403, 1.8236817],
         zoom: 12,
         pitch: 60,
         bearing: 0,
