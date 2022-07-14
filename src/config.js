@@ -346,11 +346,7 @@ var config = {
       id: 'kenya1',
       alignment: 'right',
       hidden: false,
-      title: 'Mombasa-Nairobi Railway line',
-      // image: './images/algeriaopera.png',
-      description:
-        'This project cost $4.9-billion according to AidData, linking Nairobi to the country’s main. It is reportedly Kenya’s most expensive infrastructure project since independence and it has been controversial because of the debt incurred by Kenya and that the project was built by Chinese companies. The first passengers travelled on the new railway line in 2017. What has been its impact on Kenyans since then?    ',
-
+      image: './images/Kenya.png',
       location: {
         center: [39.66008611, -4.05769119],
         zoom: 10,
@@ -370,6 +366,33 @@ var config = {
       onChapterEnter: [],
       onChapterExit: [],
     },
+    {
+      id: 'kenya2',
+      alignment: 'right',
+      hidden: false,
+      title: 'Mombasa-Nairobi Railway line',
+      image: './images/Kenya_railway.png',
+      description: '<p>The 470km-long railway line linking Kenya’s port of Mombasa and its capital, Nairobi – which cost around $5-billion – is  Kenya’s most expensive infrastructure project. It was finished in 2017 and an additional 120km section, linking Nairobi with a “dry port” in Naivasha, was completed two years later.</p><p>Ports are gateways to global trade and Mombasa was projected to handle up to 45 million tonnes of freight by 2030, more than double what it was handling in 2011. The new railway was built to handle this increase and to make the port more efficient by reducing the number of trucks queuing to pick up cargo.</p><p>In 2021, <a href="https://www.knbs.or.ke/?s=leading+economic+indicators" target="_blank">31.6-million tonnes</a> went through the port of Mombasa. And in its first three-and-a-half years of operation, 4.8-million passengers travelled on the new railway line.</p><p>Kenya Port Authority reportedly agreed to transfer a minimum of 6-million tonnes by rail to Nairobi in 2020, rising to 7.58 million tonnes in 2022, but the 2020 target was missed, with only 4.42-million transported, however this was no doubt affected by Covid-19 pandemic restrictions.</p><p>The amount of goods transported picked up slightly in 2021. By October,  just under 4.5-million tonnes had been transported.</p><p>The railway line has been mired in controversy, not least because of a rumour sparked in 2018 that Mombasa Port had been <a href="https://theconversation.com/mombasa-port-how-kenyas-auditor-general-misread-chinas-standard-gauge-railway-contracts-182610" target="_blank">used as collateral</a> for the loan to build the railway line and that, if Kenya defaulted, the port could be taken over by China Eximbank. However, researchers at Johns Hopkins School of Advanced International Studies looked into it and found that <a href="https://static1.squarespace.com/static/5652847de4b033f56d2bdc29/t/62575fb9c92fbc7ddb334cd8/1649893307393/WP52-Brautigam-Bhalaki-Deron-Wang-How+Africa+Borrows+From+China.pdf" target="_blank">the rumour is in fact not true</a>. The loan documentation the researchers studied do not sow that Kenya is in danger of losing control of their busiest port.</p><p>The Mombabsa-Nairobi line is the first phase of an ambitious regional railway network known as the <a href="https://africog.org/wp-content/uploads/2017/06/The-East-African-Railways-Master-Plan.pdf" target="_blank">East African Railways Master Plan</a> that would connect inland countries, Uganda, South Sudan, Rwanda, Burundi, and the DRC with Mombasa.</p><p>But the project has stalled at Naivasha because China’s Eximbank has not yet agreed to finance the next phase which extends the railway line across the border into Uganda.</p><p>In the meantime, the old railway line that extends to the Uganda border is reportedly being rehabilitated.</p><p>Kenya also decided to rehabilitate an old railway link to Kisumu on Lake Victoria, where a new port was opened this year. China has also been involved in this port project, although AidData has not been able to confirm if a loan agreement was signed.</p><p>The East African standard gauge railway is one of a number of large-scale railway projects in Africa financed by the Chinese.</p><p>For example, in Nigeria, $1.9-billion has been committed to modernising a 1,300km stretch of railway line between the port city of Lagos, Abjua and Kano, in the north of the country.</p><p>In Angola, $715-million went towards rehabilitating the 1,350km-long Benguela Railway line that connects Angola with the DRC. </p><p>The Tazara Railway line, which was originally built by the Chinese in the 1970s, links the Zambia copper mining belt to the port of Dar es Salaam in Tanzania.</p><p>And the recently built Djibouti to Addis Ababa line, connects landlocked Ethiopia with Djibouti’s port of Doraleh.</p>',
+      location: {
+        center: [39.66008611, -4.05769119],
+        zoom: 10,
+        pitch: 60,
+        bearing: 0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+
     {
       id: 'sa1',
       alignment: 'right',
