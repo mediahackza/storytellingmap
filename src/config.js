@@ -192,7 +192,6 @@ var config = {
       id: 'nigeria1',
       alignment: 'right',
       hidden: false,
-      title: 'Nigeria',
       image: './images/Nigeria.png',
       description: '<p>Nigeria has a shortage of electricity. Just over half of its 200-million people have access to electricity from the national grid, according to the World Bank.</p><p>As a result, the cities hum with the sound of petrol or diesel generators.</p><p>There are between 20-million and 60-million small petrol or diesel generators in Nigeria, which, according to a report by the Access to Energy Institute, have “eight times more capacity than the entire national grid”.</p>',
 
@@ -219,9 +218,9 @@ var config = {
       alignment: 'right',
       hidden: false,
       title: 'Zungeru Hydroelectric Power Plant',
-      image: 'src/images/Nigeria_Electricty_access.png',
+      image: './images/Nigeria_Electricty_access.png',
       description:
-        '<p>The <a href="https://www.thisdaylive.com/index.php/2022/03/04/fg-nigerias-installed-electricity-capacity-stands-at-18000mw-generates-8000mw-daily/" target="_blank">energy minister recently stated</a>that the country has 18GW of installed capacity, but typically only 8GW is delivered.</p><p>Nigeria ranks sixth in Africa for the amount of electricity generated in terrawatt hours, a long way behind South Africa and Egypt, according to energy think tank Ember, even though its population is significantly bigger.</p><p>Ironically, oil and natural gas are Nigeria’s <a href="https://nigerianstat.gov.ng/elibrary/read/1241099" target="_blank">top-two export products</a>.  Nigeria is Africa’s largest producer of crude oil and 75% of the country’s export income is from crude oil. Most of the country’s electricity is generated from natural gas. Yet, not enough is being produced to meet the country’s needs</p><p>The country still has to import petrol because of  lack of <a href="https://www.dataphyte.com/latest-reports/development/how-nigerias-high-petrol-importation-and-dead-refineries-affect-its-struggling-economy/#:~:text=Already%2C%20refined%20petroleum%20takes%20the,of%20the%20total%20import%20value." target="_blank">refining capacity</a>. “Motor spirit” or petrol is the country’s biggest import and millions of litres of it is needed to power the generators.</p>',
+        '<p>The <a href="https://www.thisdaylive.com/index.php/2022/03/04/fg-nigerias-installed-electricity-capacity-stands-at-18000mw-generates-8000mw-daily/" target="_blank">energy minister recently stated</a> that the country has 18GW of installed capacity, but typically only 8GW is delivered.</p><p>Nigeria ranks sixth in Africa for the amount of electricity generated in terrawatt hours, a long way behind South Africa and Egypt, according to energy think tank Ember, even though its population is significantly bigger.</p><p>Ironically, oil and natural gas are Nigeria’s <a href="https://nigerianstat.gov.ng/elibrary/read/1241099" target="_blank">top-two export products</a>.  Nigeria is Africa’s largest producer of crude oil and 75% of the country’s export income is from crude oil. Most of the country’s electricity is generated from natural gas. Yet, not enough is being produced to meet the country’s needs</p><p>The country still has to import petrol because of  lack of <a href="https://www.dataphyte.com/latest-reports/development/how-nigerias-high-petrol-importation-and-dead-refineries-affect-its-struggling-economy/#:~:text=Already%2C%20refined%20petroleum%20takes%20the,of%20the%20total%20import%20value." target="_blank">refining capacity</a>. “Motor spirit” or petrol is the country’s biggest import and millions of litres of it is needed to power the generators.</p>',
       location: {
         center: [6.2932451, 9.9005702],
         zoom: 12,
@@ -246,7 +245,7 @@ var config = {
       alignment: 'right',
       hidden: false,
       title: 'Zungeru Hydroelectric Power Plant',
-      image: './images/Nigeria_Electricty_access.pngsrc/images/african_countries_that generate_the_most_electricity.png',
+      image: './images/african_countries_that generate_the_most_electricity.png',
       description:
         '<p>Enter China. The Chinese have already provided finance for two gas power plants in Nigeria.</p><p>But one of its biggest investments in the energy sector is the new 700MW Zungera Hydroelectric dam located in Niger State, which is due to come on stream in 2022. It will meet close to 10% of Nigeria’s total domestic energy needs, according to Nigeria’s <a href="https://www.bpe.gov.ng/zungeru-hydropower-project/" target="_blank">Bureau of Public Enterprise</a></p><p>Zungera is one of 47 hydroelectric power projects China has been involved with in Africa since 2000, according to AidData.</p><p>These projects range in size from the massive 2,172MW Caculo Cabaca Hydroelectric power station in Angola to the 0.64MW Makali plant in Sierra Leone. Together they have a potential generating capacity of close to 12,000MW.</p><p>Zungera is the sixth largest of Chinese-financed dams in Africa.</p>',
       location: {
@@ -272,11 +271,37 @@ var config = {
       id: 'algeria1',
       alignment: 'right',
       hidden: false,
-      title: "Opéra d'Alger",
-      image: './images/algeriaopera.png',
+      title: "",
+      image: './images/Algeria.png',
       description:
-        'The Algerian government got a $57.14-million grant from the China Ministry of Commerce for a 1,400 seat opera house 12km from Algiers. It was a “symbol of friendship”.        ',
+        '<p>Algeria is also one of the top-four oil producers in Africa, but, unlike Angola, Equatorial Guinea and Nigeria, China has not committed money to projects in its energy or transport sector. Financial flows from China to Algeria have been low in comparison to other countries in Africa.</p><p>However, China has been involved in the El Hamdania deep-water container port on the Mediterranean Sea from around 2016, but it appears that no financial commitment has been made, according to AidData. The project was suspended in 2019, but <a href="https://www.express-dz.com/2021/12/14/port-cherchell-achevement-etudes-techniques-procedures-administratives/" target="_blank">construction work on the port</a> is reported to have begun in 2021.</p><p>So far, the two biggest projects between 2000 and 2017 are a building for the foreign ministry and an opera house.</p><p>In 2010, the Algerian government received a $57-million grant from China to build a 1,400 seat opera house near, Algiers. Described as a “<a href="https://news.cgtn.com/news/3d3d414f7a67444e79457a6333566d54/share_p.html" target="_blank">symbol of friendship</a>” between the two countries, the opera house, built by the Beijing Urban Construction Group, opened in 2016.</p><p>The relationship between the two countries has been growing since then. China’s foreign minister, Wang Yi, visited Algeria in 2021 and the two countries reportedly <a href="https://www.silkroadbriefing.com/news/2021/07/27/algeria-to-coordinate-national-development-plans-with-chinas-belt-and-road-initiative/" target="_blank">intend to deepen their cooperation under the BRI framework</a>, which will include road, mining and energy projects.</p>',
+      location: {
+        center: [2.9303258, 36.7368171],
+        zoom: 14,
+        pitch: 60,
+        bearing: 0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
 
+    {
+      id: 'algeria2',
+      alignment: 'right',
+      hidden: false,
+      title: "Opéra d'Alger",
+      image: './images/Opéra_d_Alger.png',
+      description:
+        '<p>China has been involved in the construction or rehabilitation of three other theatres in Africa, one in Cote d’Ivoire, one in Ghana and one in Senegal.</p><p>But the leisure activity it has built the most infrastructure for is sport. Football is the most popular sport in Africa. China has financed the construction or rehabilitation of 62 stadiums around the continent over the past two decades, particularly in West Africa.</p>',
       location: {
         center: [2.9303258, 36.7368171],
         zoom: 14,
