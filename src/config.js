@@ -53,10 +53,40 @@ var config = {
       id: 'angola1',
       alignment: 'left',
       hidden: false,
-      title: 'Angola',
-      image: './images/angola.png',
+      title: '',
+      image: './images/Angola.png',
       description:
         '<p>China has committed by far the most money in Angola – over $52-billion, a quarter of the amount spent in the whole of Africa, according to AidData’s research.</p><p>The bulk of the money to Angola ($21-billion)  has gone into energy projects: $12-billion to Angola’s state oil company Sonangol, $1.2-billion to an offshore oilfield development project and $19-million to an oil refinery and other oil and gas projects.</p><p>Angola is Africa’s third-largest producer of oil, according to <a href="https://www.opec.org/opec_web/en/about_us/147.htm">Opec’s</a> 2021 figures, which also show that the country’s oil production output has been falling since 2017.China’s loans are often linked to oil sales.</p>',
+      location: {
+        center: [13.2833199, -11.1799557],
+        zoom: 5.5,
+        pitch: 20,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        // {
+        //     layer: 'layer-name',
+        //     opacity: 1,
+        //     duration: 5000
+        // }
+      ],
+      onChapterExit: [
+        // {
+        //     layer: 'layer-name',
+        //     opacity: 0
+        // }
+      ],
+    },
+    {
+      id: 'angola2',
+      alignment: 'left',
+      hidden: false,
+      title: '',
+      image: './images/Oil_production_by_aAfrican_Opec_Members.png',
+      description:'<p>The bulk of the rest of the Chinese financing is shared between five hydro-electric power projects. </p><p>There are more than 300 projects listed in Angola in the dataset released by AidData in September 2021, including multiple ports, roads and railways, airports, an oil field and refinery projects.</p><p>Not only is the country oil-rich but its ports are gateways for raw materials mined in landlocked countries such as the Democratic Republic of Congo (DRC) and Zambia.</p><p>For example, $715-million went towards rehabilitating the 1,350km-long Benguela Railway line that connects Angola’s port of Lobito with Luau on the other side of the country on the border with DRC.</p><p>The railway line facilitates the transportation of cobalt from mines in the DRC and copper from Zambia to the Atlantic port for export around the world.</p>',
       location: {
         center: [13.2833199, -11.1799557],
         zoom: 5.5,
