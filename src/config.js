@@ -54,7 +54,7 @@ var config = {
       alignment: 'left',
       hidden: false,
       title: '',
-      image: './images/Angola.png',
+      image: './images/INTERACTIVE_CHINA-AFRICA-AIDDATA_COUNTRYCARDS_1.jpg',
       description:
         '<p>China has committed by far the most money in Angola – over $52-billion, a quarter of the amount spent in the whole of Africa, according to AidData’s research.</p><p>The bulk of the money to Angola ($21-billion)  has gone into energy projects: $12-billion to Angola’s state oil company Sonangol, $1.2-billion to an offshore oilfield development project and $19-million to an oil refinery and other oil and gas projects.</p><p>Angola is Africa’s third-largest producer of oil, according to <a href="https://www.opec.org/opec_web/en/about_us/147.htm">Opec’s</a> 2021 figures, which also show that the country’s oil production output has been falling since 2017.China’s loans are often linked to oil sales.</p>',
       location: {
@@ -114,7 +114,7 @@ var config = {
       alignment: 'right',
       hidden: false,
       title: 'Equatorial Guinea',
-      image: './images/Equatorial_Guinea.png',
+      image: './images/INTERACTIVE_CHINA-AFRICA-AIDDATA_COUNTRYCARDS_2.jpg',
       description: '<p>Ports are a major part of the Belt and Road initiative, harkening back to the maritime silk road trade route that connected China with Southeast Asia, the Arabian peninsula, Europe and East Africa.</p><p>Ports are a gateway to trade and China has financed the construction or revamping of 21 ports in Africa in the past two decades. China’s imports of resources such as oil, iron ore and copper from Africa are growing.</p><p>Tiny Equatorial Guinea has  oil and thanks to that it has one of the highest GPDs per capita on the continent.</p>',
 
       location: {
@@ -161,36 +161,36 @@ var config = {
       onChapterEnter: [],
       onChapterExit: [],
     },
-    {
-      id: 'equitorialguinea3',
-      alignment: 'right',
-      hidden: false,
-      image: './images/Port_of_Doraleh.png',
-      description:
-        '',
-      location: {
-        center: [9.7368403, 1.8236817],
-        zoom: 12,
-        pitch: 60,
-        bearing: 0,
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: [],
-    },
+    // {
+    //   id: 'equitorialguinea3',
+    //   alignment: 'right',
+    //   hidden: false,
+    //   image: './images/Port_of_Doraleh.png',
+    //   description:
+    //     '',
+    //   location: {
+    //     center: [9.7368403, 1.8236817],
+    //     zoom: 12,
+    //     pitch: 60,
+    //     bearing: 0,
+    //     // flyTo additional controls-
+    //     // These options control the flight curve, making it move
+    //     // slowly and zoom out almost completely before starting
+    //     // to pan.
+    //     //speed: 2, // make the flying slow
+    //     //curve: 1, // change the speed at which it zooms out
+    //   },
+    //   mapAnimation: 'flyTo',
+    //   rotateAnimation: false,
+    //   callback: '',
+    //   onChapterEnter: [],
+    //   onChapterExit: [],
+    // },
     {
       id: 'nigeria1',
       alignment: 'right',
       hidden: false,
-      image: './images/Nigeria.png',
+      image: './images/INTERACTIVE_CHINA-AFRICA-AIDDATA_COUNTRYCARDS_3.jpg',
       description: '<p>Nigeria has a shortage of electricity. Just over half of its 200-million people have access to electricity from the national grid, according to the World Bank.</p><p>As a result, the cities hum with the sound of petrol or diesel generators.</p><p>There are between 20-million and 60-million small petrol or diesel generators in Nigeria, which, according to a report by the Access to Energy Institute, have “eight times more capacity than the entire national grid”.</p>',
 
       location: {
@@ -268,7 +268,7 @@ var config = {
       alignment: 'right',
       hidden: false,
       title: "",
-      image: './images/Algeria.png',
+      image: './images/INTERACTIVE_CHINA-AFRICA-AIDDATA_COUNTRYCARDS.jpg',
       description:
         '<p>Algeria is also one of the top-four oil producers in Africa, but, unlike Angola, Equatorial Guinea and Nigeria, China has not committed money to projects in its energy or transport sector. Financial flows from China to Algeria have been low in comparison to other countries in Africa.</p><p>However, China has been involved in the El Hamdania deep-water container port on the Mediterranean Sea from around 2016, but it appears that no financial commitment has been made, according to AidData. The project was suspended in 2019, but <a href="https://www.express-dz.com/2021/12/14/port-cherchell-achevement-etudes-techniques-procedures-administratives/" target="_blank">construction work on the port</a> is reported to have begun in 2021.</p><p>So far, the two biggest projects between 2000 and 2017 are a building for the foreign ministry and an opera house.</p><p>In 2010, the Algerian government received a $57-million grant from China to build a 1,400 seat opera house near, Algiers. Described as a “<a href="https://news.cgtn.com/news/3d3d414f7a67444e79457a6333566d54/share_p.html" target="_blank">symbol of friendship</a>” between the two countries, the opera house, built by the Beijing Urban Construction Group, opened in 2016.</p><p>The relationship between the two countries has been growing since then. China’s foreign minister, Wang Yi, visited Algeria in 2021 and the two countries reportedly <a href="https://www.silkroadbriefing.com/news/2021/07/27/algeria-to-coordinate-national-development-plans-with-chinas-belt-and-road-initiative/" target="_blank">intend to deepen their cooperation under the BRI framework</a>, which will include road, mining and energy projects.</p>',
       location: {
@@ -346,7 +346,7 @@ var config = {
       id: 'kenya1',
       alignment: 'right',
       hidden: false,
-      image: './images/Kenya.png',
+      image: './images/INTERACTIVE_CHINA-AFRICA-AIDDATA_COUNTRYCARDS_5.jpg',
       location: {
         center: [39.66008611, -4.05769119],
         zoom: 10,
@@ -397,8 +397,7 @@ var config = {
       id: 'sa1',
       alignment: 'right',
       hidden: false,
-      title: 'Medupi Power Station',
-      image: './images/South_Africa.png',
+      image: './images/INTERACTIVE_CHINA-AFRICA-AIDDATA_COUNTRYCARDS_4.jpg',
       location: {
         center: [27.5610361, -23.7049107],
         zoom: 10,
@@ -445,7 +444,7 @@ var config = {
       id: 'sa3',
       alignment: 'right',
       hidden: false,
-      image:'./images/Load_shedding_In_South_Africa.png',
+      image:'./images/INTERACTIVE_CHINA_AFRICA_1.jpg',
       description: '<p>At another upmarket hotel in Johannesburg, trainee chef Libby Ritchie recalled a day when the generators failed leaving the kitchen staff in total darkness.  The kitchen runs on gas, so the chefs were still able to cook, but Ritchie described how they had to balance their phones on the utility shelves to spotlight their chopping boards so they could continue chopping without losing a finger.</p><p>South Africa once produced enough electricity to export to neighbouring countries and power electricity-intensive industries such as aluminium smelting. But its fleet of coal power plants is aging, poorly maintained and unable to meet the country’s electricity needs.</p><p>The state-owned power utility, Eskom, took on billions of dollars of debt to build two huge 4,800MW coal power stations, known as Medupi and Kusile. But both ran over budget, are years behind schedule and are dogged by corruption scandals.</p><p>The China Development Bank provided a $1.5-billion loan in 2017 to partially finance Medupi. All six generation units were finally completed in 2021. Kusile is not yet finished.</p><p>Eskom had already received a $500-million loan from the China Development Bank in 2016, to support its capital expansion programme, which included the two new power plants, a pumped-storage hydropower plant and the expansion of a coal mine. </p><p>A third $2-billion loan agreement was signed with Huarong Energy Africa, a subsidiary of China’s state-owned Huarong Asset Management Company in October 2017. But was entangled in a <a href="https://www.bloomberg.com/news/articles/2019-03-04/eskom-deceived-central-bank-about-china-huarong-loan-probe-told" target="_blank">corruption scandal</a> right from the start because of an attempt to commit Eskom to a “raising  fee” of $24-million. It is unclear whether Eskom actually received the full $2-billion loan.</p><p>The power utility is at the centre of the “state capture” allegations that were investigated at a commission of inquiry chaired by the now chief justice Raymond Zondo.</p><p>AidData found that about a third of China’s Belt and Road infrastructure projects had encountered problems, such as corruption scandals, labor violations, environmental hazards, and public protests.</p><p>The corruption and mismanagement of Eskom has resulted in the worsening power outages which have had a huge impact on the country’s economy. South Africa’s GDP growth has for years been below that of other African countries such as Kenya and Nigeria and unemployment has been steadily increasing and is now hovering around 35%.</p><p>The corruption and mismanagement of Eskom has resulted in the worsening power outages which have had a huge impact on the country’s economy. South Africa’s GDP growth has for years been below that of other African countries such as Kenya and Nigeria and unemployment has been steadily increasing and is now hovering around 35%.</p><p><div class="flourish-embed flourish-chart" data-src="visualisation/10545701"><script src="https://public.flourish.studio/resources/embed.js"></script></div></p><p>A wage strike by workers at a number of power stations at the end of June, shifted loadshedding up a gear to “stage 6”. For every stage of loadshedding the power utility rations the country by 1,000MW of power, so stage 6 is, theoretically, 6,000MW.</p><p>Meanwhile, businesses without sufficient back-up power had to close, and residents sat in the winter cold, waiting for the lights to turn back on, hoping their cellphone batteries would last.</p>',
       location: {
         center: [27.5610361, -23.7049107],
