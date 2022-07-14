@@ -56,7 +56,7 @@ var config = {
       title: 'Angola',
       image: './images/angola.png',
       description:
-        '<p>China has spent by far the most money in Angola – over $52-billion, 25% of the amount spent in the whole of Africa, according to AidData’s research.</p><p>The bulk of the money to Angola ($21-billion)  has gone into energy projects: $12-billion has gone to Angola’s state oil company Sonangol, a $19-million loan went to the the Lobito refinery and other oil and gas projects, and  a $1.2-billion loan went towards an offshore oilfield development project.</p>      <p>Angola is Africa’s second-largest producer of oil, according to Opec. </p>    <p>The bulk of the rest of the Chinese financing  is shared between five hydro-electric power projects. </p><p>There are more than 300 projects listed in Angola in the dataset released by AidData in September 2021, including multiple ports, road and railways, airports, oil field and refinery projects.</p>       ',
+        '<p>China has committed by far the most money in Angola – over $52-billion, a quarter of the amount spent in the whole of Africa, according to AidData’s research.</p><p>The bulk of the money to Angola ($21-billion)  has gone into energy projects: $12-billion to Angola’s state oil company Sonangol, $1.2-billion to an offshore oilfield development project and $19-million to an oil refinery and other oil and gas projects.</p><p>Angola is Africa’s third-largest producer of oil, according to <a href="https://www.opec.org/opec_web/en/about_us/147.htm">Opec’s</a> 2021 figures, which also show that the country’s oil production output has been falling since 2017.China’s loans are often linked to oil sales.</p>',
       location: {
         center: [13.2833199, -11.1799557],
         zoom: 5.5,
